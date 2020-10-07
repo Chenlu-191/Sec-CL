@@ -33,13 +33,28 @@
        7.使用get将赋值过的变量进行输出
        
 ## 四.核心方法
-     此部分代码是跟CPU的速度，CPU类getSpeed()返回speed的值，setSpeed方法将参数赋值给speed,用this关键字传递变量的值，通过if判断语句设定合理速度范围。
+     此部分代码是跟CPU的速度，
+     
+     CPU类getSpeed()返回speed的值，
+     
+     setSpeed方法将参数赋值给speed,
+     
+     用this关键字传递变量的值，
+     
+     通过if判断语句设定合理速度范围。
+     
      private int speed;
+     
      public int getSpeed(){
+     
     return speed;
-}
-public void setSpeed(int speed) {
+    
+  }
+
+    public void setSpeed(int speed) {
+    
     if (speed < 3500 && speed > 2000){
+    
         this.speed=speed;
     }
      
