@@ -49,7 +49,7 @@
      
     return speed;
     
-  }
+    }
 
     public void setSpeed(int speed) {
     
